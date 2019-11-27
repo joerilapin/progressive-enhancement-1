@@ -1,0 +1,107 @@
+p {
+    letter-spacing: 0.05em;
+    font-size: 1.125em;
+    color: #2b2e30;
+}
+
+a:link {
+    font-weight: bold;
+    color: black;
+    font-variant: small-caps;
+}
+
+a:hover{
+    font-style: italic;
+}
+
+a:visited{
+    text-decoration: underline;
+}
+
+body {
+    width: 90%;
+    margin: auto;
+    background-image: url("images/chevron.png");
+    background-position: bottom right;
+    font-family: 'Cutive Mono', monospace;
+
+    /*background: -webkit-linear-gradient(89deg, rgb(243, 234, 207), rgb(163, 204, 215));
+    background: linear-gradient(89deg, rgb(243, 234, 207), rgb(163, 204, 215));
+    background-repeat: no-repeat;
+    background-size: cover;*/
+}
+
+blockquote {
+    display: inline;
+    width: 55%;
+    text-align: justify;
+    margin: auto;
+
+}
+
+q {
+    font-size: 160%;
+    background: lightgray;
+    padding-left: 30px;
+    margin: 80px 0 80px 0;
+    font-style: italic;
+}
+
+.villagers {
+    border-left: darkgreen solid 3px;
+}
+
+.farmer {
+    border-left: darkslateblue solid 3px;
+}
+
+header time {
+    background-color: lightyellow;
+}
+
+.good {
+    text-transform: capitalize;
+    background-color: darkseagreen;
+}
+
+.bad {
+    text-transform: capitalize;
+    background-color: darksalmon;
+}
+
+tr:nth-child(even) {
+    background: silver;
+}
+
+tr:nth-child(odd){
+    background: aliceblue;
+}
+
+blockquote > p:first-child {
+    font-weight: bold;
+}
+
+figure {
+    float: left;
+    height:auto;
+    width: 65%;
+}
+
+img {
+    height: auto;
+    width: 100%;
+
+}
+
+.notification{
+    background:#FFFFDD;
+    padding:.5rem 1rem;
+    border:3px solid #DDDDCC;
+    width:250px;
+    font-weight:bold;
+    color: #333300;
+    margin-left: 70vw;
+    margin-top: 65vh;
+    position: fixed;
+    text-align: center;
+}
